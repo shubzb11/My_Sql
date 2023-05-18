@@ -9,12 +9,12 @@ CREATE TABLE EmployeeDetails (
 
 -- Insert sample data into EmployeeDetails
 INSERT INTO EmployeeDetails (EmpId, FullName, ManagerId, DateOfJoining, City)
-VALUES (1, 'John Doe', NULL, '2020-01-01', 'New York'),
-       (2, 'Jane Smith', 1, '2020-02-15', 'Boston'),
-       (3, 'Bob Johnson', 1, '2020-03-01', 'Chicago'),
-       (4, 'Alice Brown', 2, '2020-04-01', 'San Francisco'),
-       (5, 'David Lee', 2, '2020-05-01', 'Los Angeles'),
-       (6, 'Steve Smith', NULL, '2019-05-01', 'Sydney');
+VALUES (1, 'shubham', NULL, '2020-01-01', 'NYC'),
+       (2, 'James', 1, '2020-02-15', 'india'),
+       (3, 'jonny', 1, '2020-03-01', 'China'),
+       (4, 'Amarjit', 2, '2020-04-01', 'brazil'),
+       (5, 'David ', 2, '2020-05-01', 'france'),
+       (6, 'Steve', NULL, '2019-05-01', 'Sydney');
 
 -- Create EmployeeSalary table
 CREATE TABLE EmployeeSalary (
